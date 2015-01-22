@@ -1,7 +1,7 @@
 {
   "name": "sort-keys-length",
-  "version": "1.0.0",
-  "description": "Get configured proxy",
+  "version": "1.0.1",
+  "description": "Sort objecy keys by length",
   "license": "MIT",
   "repository": "kevva/sort-keys-length",
   "author": {
