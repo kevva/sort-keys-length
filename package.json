@@ -24,6 +24,7 @@
     "sort"
   ],
   "dependencies": {
+    "length-sort": "^1.0.0",
     "sort-keys": "^1.0.0"
   },
   "devDependencies": {
