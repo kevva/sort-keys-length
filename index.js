@@ -3,13 +3,6 @@
 var lengthSort = require('length-sort');
 var sortKeys = require('sort-keys');
 
-/**
- * Sort object keys by length
- *
- * @param obj
- * @api public
- */
-
 module.exports.desc = function (obj) {
 	return sortKeys(obj, lengthSort.desc);
 };

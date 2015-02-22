@@ -13,20 +13,20 @@ $ npm install --save sort-keys-length
 ```js
 var sortKeysLength = require('sort-keys-length');
 
-sortKeysLength.asc({ ab: 'x', a: 'y', abc: 'z' });
-//=> { a: 'y', ab: 'x', abc: 'z' }
+sortKeysLength.asc({ab: 'x', a: 'y', abc: 'z'});
+//=> {a: 'y', ab: 'x', abc: 'z'}
 
-sortKeysLength.desc({ ab: 'x', a: 'y', abc: 'z' });
-//=> { abc: 'z', ab: 'x', a: 'y' }
+sortKeysLength.desc({ab: 'x', a: 'y', abc: 'z'});
+//=> {abc: 'z', ab: 'x', a: 'y'}
 ```
 
 ## API
 
-### .asc
+### .asc(obj)
 
 Ascending sort.
 
-### .desc
+### .desc(obj)
 
 Descending sort.
 
