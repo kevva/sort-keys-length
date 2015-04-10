@@ -2,11 +2,13 @@
 
 > Sort object keys by length
 
+
 ## Install
 
-```sh
+```
 $ npm install --save sort-keys-length
 ```
+
 
 ## Usage
 
@@ -20,6 +22,7 @@ sortKeysLength.desc({ab: 'x', a: 'y', abc: 'z'});
 //=> {abc: 'z', ab: 'x', a: 'y'}
 ```
 
+
 ## API
 
 ### .asc(obj)
@@ -29,6 +32,7 @@ Ascending sort.
 ### .desc(obj)
 
 Descending sort.
+
 
 ## License
 
