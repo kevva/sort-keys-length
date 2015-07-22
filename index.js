@@ -1,5 +1,4 @@
 'use strict';
-
 var lengthSort = require('length-sort');
 var sortKeys = require('sort-keys');
 
