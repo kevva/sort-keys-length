@@ -1,11 +1,6 @@
 'use strict';
-var lengthSort = require('length-sort');
-var sortKeys = require('sort-keys');
+const lengthSort = require('length-sort');
+const sortKeys = require('sort-keys');
 
-module.exports.desc = function (obj) {
-	return sortKeys(obj, lengthSort.desc);
-};
-
-module.exports.asc = function (obj) {
-	return sortKeys(obj, lengthSort.asc);
-};
+module.exports.desc = obj => sortKeys(obj, lengthSort.desc);
+module.exports.asc = obj => sortKeys(obj, lengthSort.asc);
