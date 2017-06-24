@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save sort-keys-length
+$ npm install sort-keys-length
 ```
 
 
@@ -25,13 +25,30 @@ sortKeysLength.desc({ab: 'x', a: 'y', abc: 'z'});
 
 ## API
 
-### sortKeysLength.asc(obj)
+### sortKeysLength.asc(object, [options])
 
 Ascending sort.
 
-### sortKeysLength.desc(obj)
+### sortKeysLength.desc(object, [options])
 
 Descending sort.
+
+#### object
+
+Type: `Object`
+
+Object to sort.
+
+#### options
+
+Type: `Object`
+
+##### deep
+
+Type: `boolean`<br>
+Default: `false`
+
+Recursively sort keys.
 
 
 ## License

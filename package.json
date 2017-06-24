@@ -1,37 +1,34 @@
 {
-  "name": "sort-keys-length",
-  "version": "1.0.1",
-  "description": "Sort objecy keys by length",
-  "license": "MIT",
-  "repository": "kevva/sort-keys-length",
-  "author": {
-    "name": "Kevin Mårtensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "https://github.com/kevva"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "length",
-    "object",
-    "sort"
-  ],
-  "dependencies": {
-    "length-sort": "^1.0.0",
-    "sort-keys": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "sort-keys-length",
+	"version": "1.0.1",
+	"description": "Sort objecy keys by length",
+	"license": "MIT",
+	"repository": "kevva/sort-keys-length",
+	"author": {
+		"name": "Kevin Mårtensson",
+		"email": "kevinmartensson@gmail.com",
+		"url": "https://github.com/kevva"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"length",
+		"object",
+		"sort"
+	],
+	"dependencies": {
+		"length-sort": "^2.0.0",
+		"sort-keys": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
