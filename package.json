@@ -1,6 +1,6 @@
 {
 	"name": "sort-keys-length",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Sort objecy keys by length",
 	"license": "MIT",
 	"repository": "kevva/sort-keys-length",
